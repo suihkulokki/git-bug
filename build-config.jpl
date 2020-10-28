@@ -1,3 +1,4 @@
+node {
     dir("tf-m-tests") {
       checkout(
         changelog: false,
@@ -12,4 +13,4 @@
         ]
       )
     }
-
+}
